@@ -1,0 +1,47 @@
+nav
+{
+    
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  
+  }
+ a:hover{
+    background-color: yellow;
+    color: red;
+  }
+  /* CSS за таблицата */
+table {
+    border-collapse: collapse;
+}
+th {
+    font-family: Arial, sans-serif;
+}
+td, th {
+    border: 2px solid #ff6600; /* избран цвят на рамката */
+    padding: 8px;
+}
+th{
+    font-family: Arial;
+}
+td
+{
+    font-family: Cambria;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: lightgray; /* избран цвят на фона */
+    color: black; /* избран цвят на текста */
+    padding: 5px;
+    border: 1px solid black;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: #ff6600; /* избран цвят на фона за бутоните */
+    color: white; /* избран цвят на текста за бутоните */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

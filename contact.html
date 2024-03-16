@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактна форма</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <nav> 
+        <a  href="/index.html">Начална</a>
+        <a  href="/contact.html">Контак2т</a>
+        <a  href="/contact.html">Контакт</a>
+        
+    </nav>
+    <!-- HTML за формуляра -->
+<form>
+    <label for="name">Име:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="faculty_number">Факултетен номер:</label>
+    <input type="text" id="faculty_number" name="faculty_number"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Съобщение:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <label for="priority">Приоритет:</label><br>
+    <input type="radio" id="low" name="priority" value="low">
+    <label for="low">Нисък</label><br>
+    <input type="radio" id="medium" name="priority" value="medium">
+    <label for="medium">Среден</label><br>
+    <input type="radio" id="high" name="priority" value="high">
+    <label for="high">Висок</label><br><br>
+    <input type="submit" value="Изпрати">
+    <input type="reset" value="Изчисти">
+</form>
+
+</body>
+</html>
